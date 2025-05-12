@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h1 class="text-center mt-5">403 Forbidden</h1>
+  <p class="text-center">You do not have permission to access this resource.</p>
+  <div class="text-center mt-3">
+    <a href="{{ url_for('main.home') }}" class="btn btn-primary">Return to Home</a>
+  </div>
+{% endblock %}
